@@ -1,0 +1,28 @@
+.about {
+  width: 100vw;
+  height: 150vh;
+
+  background-image: linear-gradient(rgba(#1c1d26, 0.8), rgba(#1c1d26, 0.5)), url(../img/desk.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  background-attachment: fixed;
+
+  .wrapper {
+    background-color: rgba(#000, 0.7);
+    border-top: 5px solid #e44c65;
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 2em;
+      padding-bottom: 2em;
+
+      &-grid {
+        grid-gap: 2em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.portfolio-left {
+  height: 100vh;
+  background-image: linear-gradient(rgba(#1c1d26, 0.5), rgba(#1c1d26, 0.5)),
+    url(../img/train.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  justify-items: left;
+
+  &-block {
+    width: 35%;
+    padding: 3em;
+    justify-self: right;
+    height: 100%;
+    background-color: rgba(#1c1d26, 0.8);
+    border-left: 5px solid $blue;
+
+
+    .bold {
+      color: #fff;
+
+    }
+
+  }
+}
+
+.portfolio-right {
+  height: 100vh;
+  background-image: linear-gradient(rgba(#1c1d26, 0.5), rgba(#1c1d26, 0.5)),
+    url(../img/mountain.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+
+
+  &-block {
+    width: 35%;
+    padding: 3em;
+    justify-self: left;
+    height: 100%;
+    background-color: rgba(#1c1d26, 0.8);
+    border-right: 5px solid $blue;
+
+
+    .bold {
+      color: #fff;
+
+    }
+
+  }
+}

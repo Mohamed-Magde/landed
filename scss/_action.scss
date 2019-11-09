@@ -1,0 +1,45 @@
+.action {
+  padding: 4em;
+  width: 100vw;
+  background-color: #e44c65;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+
+  &-desc {
+    letter-spacing: 3px;
+    display: block;
+    margin-bottom: 2em;
+  }
+
+  &-grid {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 2fr 0.7fr;
+
+    input {
+      padding: 1em 2em;
+      background-color: #e44c65;
+      border: 1px solid rgba(#fff, 0.5);
+      border-radius: 5px;
+    }
+
+    .btn-start {
+      padding: 1em 2em;
+      background-color: #fff;
+      color: #e44c65;
+      border-radius: 5px;
+    }
+
+    ::-webkit-input-placeholder {
+      color: rgba(#fff, 0.5);
+    }
+  }
+}
+
+.footer {
+  padding: 5em;
+  text-align: center;
+}
